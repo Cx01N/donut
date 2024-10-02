@@ -16,10 +16,6 @@
 extern "C" {
 #endif
 
-#ifndef APLIB_ERROR
-# define APLIB_ERROR ((unsigned int) (-1))
-#endif
-
 /* function prototype */
 unsigned int aP_depack(const void *source, void *destination);
 
